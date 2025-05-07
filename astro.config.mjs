@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://aksahta.github.io',
+	
 	integrations: [
 		starlight({
 			title: 'My Docs',
